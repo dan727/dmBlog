@@ -10,9 +10,6 @@ https://docs.djangoproject.com/en/2.2/howto/deployment/wsgi/
 from django.core.wsgi import get_wsgi_application
 import os
 
-rom whitenoise.django import DjangoWhiteNoise
-application = DjangoWhiteNoise(application)
-
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'myblog.settings')
 
